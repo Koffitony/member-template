@@ -20,7 +20,8 @@
  	#header.scrolled .wrap:after {  border-width: 148px 0 0 222px; }
 
 	.banner-content { left:2em; }
-	.banner-slider .item:after, .subpage .banner-slider .item:after { border-width:619px 0 0 530px; top:-74px; }
+	.banner-slider .item:after { border-width:619px 0 0 530px; top:-74px; }
+	.subpage .banner-slider .item:after { border-width: 518px 0 0 443px; top:-74px; }
 }
 /*==========================================================================================================*/
 /*Bootstrap Medium section*/
@@ -38,7 +39,8 @@
 	.banner-content { bottom:auto; top:420px; left:62px; }
 	#header .wrap:before { border-width:147px 58px 0 260px }
 	#header .wrap:after { border-width:147px 0 115px 260px }
-	.banner-slider .item:after, .subpage .banner-slider .item:after { border-width:659px 0 0 573px; top:-114px; }
+	.banner-slider .item:after { border-width:659px 0 0 573px; top:-114px; }
+	.subpage .banner-slider .item:after { border-width: 560px 0 0 482px; top:-116px; }
 
 	.aboutblock p { padding-right:1em; }
 	.newsletter-title { padding-left:60px; }
@@ -67,6 +69,7 @@
 	#header .wrap:after { border-width:148px 0 70px 190px }
 	.banner-content { left:0.6em; }
 	.banner-slider .item:after, .subpage .banner-slider .item:after { border-width:591px 0 0 485px; top:-45px; }
+	.subpage .banner-slider .item:after { border-width: 477px 0 0 414px; top:-33px; }
 }
 
 

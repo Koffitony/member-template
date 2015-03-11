@@ -123,7 +123,7 @@ h5 { font-size:16px; }
 
 .banner-slider .item { position:relative; background-color:#000; overflow: hidden; }
 .banner-slider .item:after { width: 0; height: 0; border-style: solid; border-width: 696px 0 0 617px; border-color: transparent transparent transparent #ad073d;  border-color: transparent transparent transparent rgba(173,7,61,0.85); content:''; position:absolute; left:0; top:-152px; }
-.subpage .banner-slider .item:after { border-width: 596px 0 0 528px; }
+.subpage .banner-slider .item:after { border-width: 596px 0 0 528px; top:-152px; }
 
 
 .banner-content { position:absolute; left:125px;  font-size:20px; color:#fff; text-transform:uppercase; bottom:425px; z-index:4; line-height:1.15; }
