@@ -73,6 +73,7 @@ h5 { font-size:16px; }
 .sp-before:before { background-image: url(../images/bgi/sprites.png); display: inline-block; width: 25px; height: 25px; margin-right: 10px; content: ''; vertical-align: middle; }
 
 .toprow { background:#026937; color:#fff; font-size:12px; padding:11px 0; position:relative; z-index:2; }
+.toprow p { margin: 0; }
 .language-nav { text-align:right; }
 .language-nav a { color:#8daf9b;  text-decoration:none; margin:0 3px; }
 .language-nav a:hover, .language-nav a.active { color:#fff; }
