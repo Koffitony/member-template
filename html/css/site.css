@@ -96,7 +96,7 @@ h5 { font-size:16px; }
 .searchbox .form-control:focus {  box-shadow:0 1px 1px rgba(0, 0, 0, 0.10) inset, 0 0 5px rgba(0, 0, 0, 0.10); }
 .form-control:focus { box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(0, 0, 0, 0.10); border:solid 1px #7c7c7c; }
 
-.main-banner { position:absolute; top:0; width:100%; z-index:1; }
+.main-banner { position:absolute; top:0; width:100%; }
 .main-banner .wrap { margin-top:0; }
 
 #navbar { font-size:18px; padding:0; }
@@ -130,8 +130,8 @@ h5 { font-size:16px; }
 .banner-content span { font-size:30px; color:#fbb000; font-weight:bold; }
 .container { padding-left:0; padding-right:0; }
 
-#main { position:relative; z-index:2; margin-top:505px; }
-#main > .wrap { padding-bottom:35px; background:url(../images/bgi/main-bg.png) 0 0 repeat-x; z-index:3; position:relative; }
+#main { position:relative; margin-top:505px; }
+#main > .wrap { padding-bottom:35px; background:url(../images/bgi/main-bg.png) 0 0 repeat-x; position:relative; }
 .subpage #main { margin-top:405px }
 
 .promotion-row { padding:75px 0 45px 0; }
