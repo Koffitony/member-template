@@ -86,8 +86,8 @@ h5 { font-size:16px; }
 #header.scrolled { box-shadow:0 1px 6px rgba(0,0,0,0.07); }
 
 
-#logo { float:left; margin:26px 0 31px 3px; position:relative; z-index:3; width:131px; }
-#logo img { width:100%; height:auto; }
+#logo a { float:left; margin:26px 0 31px 3px; position:relative; z-index:3; width:131px; }
+#logo a img { width:100%; height:auto; }
 
 .searchbox { width:241px; float:right; position:relative; margin:30px 0 10px ; }
 .searchbox input[type="submit"] { background-color:transparent; background-image: url(../images/bgi/sprites.png); width:18px; height:18px; font-size:0; line-height:0; text-indent:-9999em; overflow:visible; position:absolute; right:12px; top:0; bottom:0; margin:auto 0; border:0; }

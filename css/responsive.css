@@ -125,7 +125,7 @@
 
 
 
-	#logo { margin-left:12px; }
+	#logo a { margin-left:12px; }
 }
 
 @media only screen and (max-width: 767px) {
@@ -133,7 +133,7 @@
 	.navbar-nav { margin:0;  background:rgba(255, 255, 255, 0.9);   }
 	.searchbox { margin:15px 0; }
 	.navbar-toggle { margin:0; }
-	#logo { margin:18px 0; width:100px; height:auto; }
+	#logo a { margin:18px 0; width:100px; height:auto; }
 
 
 	.main-banner { position:static;   }
@@ -168,11 +168,11 @@
 }
 
 @media only screen and (min-width: 940px) and (max-width: 992px) {
-	#logo { margin-left:-60px; }
+	#logo a { margin-left:-60px; }
 }
 
 @media only screen and (min-width: 870px) and (max-width: 940px) {
-	#logo { margin-left:-40px; }
+	#logo a { margin-left:-40px; }
 }
 
 
@@ -223,7 +223,7 @@
 	.newsletter-title { padding-left:55px; font-size:16px; }
 	.newsletter-title i { transform:scale(0.85); }
 
-	#logo { margin:8px 0; width:65px; height:auto; }
+	#logo a { margin:8px 0; width:65px; height:auto; }
 	.searchbox { display:none; }
 
 	#header .wrap:before { border-width:62px 25px 0 85px; margin-left:-1px; }
