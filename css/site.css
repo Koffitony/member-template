@@ -135,15 +135,15 @@ h5 { font-size:16px; }
 #main > .wrap { padding-bottom:35px; background:url(../images/bgi/main-bg.png) 0 0 repeat-x; position:relative; }
 .subpage #main { margin-top:405px }
 
-.promotion-row { padding:75px 0 45px 0; }
-.promotion-row figure { position:relative; }
-.promotion-row figure figcaption { background:#fff; background:rgba(255,255,255,0.85); color:#58585a; text-transform:uppercase; padding:9px 90px 9px 15px; font-size:16px; position:absolute; left:0; bottom:0; margin:0; width:100%; }
-.promotion-row figure figcaption:after { content:''; width: 0; height: 0; border-style: solid; border-width: 0 0 95px 95px; border-color: transparent transparent #026937 transparent; position:absolute; right:0; bottom:0; -moz-transform:scale(.9999); }
-.promotion-row .promo-one figure figcaption:after { border-color: transparent transparent #026937 transparent; }
-.promotion-row .promo-two figure figcaption:after { border-color: transparent transparent #e2231a transparent; }
-.promotion-row .promo-three figure figcaption:after { border-color: transparent transparent #fbb000 transparent; }
-.promotion-row .promo-four figure figcaption:after { border-color: transparent transparent #c4d600 transparent; }
-.promotion-row figure:hover figcaption:after { border-width: 0 0 105px 105px; }
+.promobox { margin: 45px 0 35px 0; }
+.promobox figure { position:relative; }
+.promobox figure figcaption { background:#fff; background:rgba(255,255,255,0.85); color:#58585a; text-transform:uppercase; padding:9px 90px 9px 15px; font-size:16px; position:absolute; left:0; bottom:0; margin:0; width:100%; }
+.promobox figure figcaption:after { content:''; width: 0; height: 0; border-style: solid; border-width: 0 0 95px 95px; border-color: transparent transparent #026937 transparent; position:absolute; right:0; bottom:0; -moz-transform:scale(.9999); }
+.promobox.promo-one figure figcaption:after { border-color: transparent transparent #026937 transparent; }
+.promobox.promo-two figure figcaption:after { border-color: transparent transparent #e2231a transparent; }
+.promobox.promo-three figure figcaption:after { border-color: transparent transparent #fbb000 transparent; }
+.promobox.promo-four figure figcaption:after { border-color: transparent transparent #c4d600 transparent; }
+.promobox figure:hover figcaption:after { border-width: 0 0 105px 105px; }
 
 .latest-blogpost { margin:0 0 55px; }
 .blog-date { color:#959595; display:block; padding:5px 0 15px; font-weight:bold; }

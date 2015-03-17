@@ -31,9 +31,9 @@
 	img { max-width: 100%; width:auto; height:auto; }
 	.wrap { width:auto; padding:0 15px; }
 	.main-banner .wrap  { padding-left:0; padding-right:0; }
-	.promotion-row figure figcaption { font-size:15px; padding:9px 60px 9px 15px }
-	.promotion-row figure figcaption:after { border-width:0 0 65px 65px }
-	.promotion-row figure:hover figcaption:after { border-width:0 0 75px 75px }
+	.promobox figure figcaption { font-size:15px; padding:9px 60px 9px 15px }
+	.promobox figure figcaption:after { border-width:0 0 65px 65px }
+	.promobox figure:hover figcaption:after { border-width:0 0 75px 75px }
 	.backtotop { float:none; display:inline-block; margin-top:8px; }
 
 	.banner-content { bottom:auto; top:420px; left:62px; }
@@ -78,8 +78,7 @@
 
 @media only screen and (max-width: 992px) {
 
-	 .promotion-row figure img { width:100%; }
-	 .promotion-row .box  { margin:15px 0; }
+	 .promobox figure img { width:100%; }
 
 	 .photoslist li { width:50%; }
 	 .photoslist li img, .partnerlist li img { width:100%; }
@@ -91,13 +90,13 @@
 	 .copyright { padding-top:15px; }
 	 .latest-blogpost, .eventblock { margin-bottom:1.5em; }
 	 .partnersbox { padding:1em 0 0 ; }
-	 .promotion-row { padding:2.5em 0; }
 	 .newsletter-form { float:none; padding-top:20px; }
 	 .newsletter-form:after { display:table; content:''; clear:both; }
 	 .container { width:auto; max-width:750px; }
-	 .promotion-row figure figcaption { font-size:15px; padding:9px 90px 9px 15px }
-	 .promotion-row figure figcaption:after { border-width:0 0 95px 95px }
-	 .promotion-row figure:hover figcaption:after { border-width:0 0 105px 105px }
+	 .promobox { margin: 20px 0; }
+	 .promobox figure figcaption { font-size:15px; padding:9px 90px 9px 15px }
+	 .promobox figure figcaption:after { border-width:0 0 95px 95px }
+	 .promobox figure:hover figcaption:after { border-width:0 0 105px 105px }
 	 .language { display:none; }
 	 .thumbnail img { width:100%; height:auto; }
 	 .partnerblock .partnerlist { padding-bottom:0; }
@@ -116,11 +115,9 @@
 	.photoslist li { width:25%; padding-left:15px; }
 	.partnerlist li { padding:0 0 15px 15px; }
 	#footer:after { border-width: 0 0 74px 181px; }
-	.promotion-row { padding:1.4em 0; }
 	.eventlist li .event-date { font-size:15px; }
 	.banner-content { top:406px; font-size:18px; }
 	.banner-content span { font-size:28px; }
-	.promotion-row { padding-top:14px; }
 	.banner-slider .item:after, .subpage .banner-slider .item:after { border-width:731px 0 0 560px; top:-101px;  }
 
 
@@ -162,9 +159,9 @@
 
 @media only screen and (max-width: 590px) {
 
-	.promotion-row figure figcaption { font-size:15px; padding:9px 60px 9px 15px }
-	.promotion-row figure figcaption:after { border-width:0 0 65px 65px }
-	.promotion-row figure:hover figcaption:after { border-width:0 0 75px 75px }
+	.promobox figure figcaption { font-size:15px; padding:9px 60px 9px 15px }
+	.promobox figure figcaption:after { border-width:0 0 65px 65px }
+	.promobox figure:hover figcaption:after { border-width:0 0 75px 75px }
 }
 
 @media only screen and (min-width: 940px) and (max-width: 992px) {
@@ -202,11 +199,10 @@
 @media only screen and (max-width: 479px) {
 	.toprow .col-xs-7 { padding-right:0; }
 	.toprow .col-xs-5 { padding-left:0; }
-	.promotion-row .box { width:100%; margin:0 0 15px; }
 
-	.promotion-row figure figcaption { padding:9px 65px 9px 15px }
-	.promotion-row figure figcaption:after { border-width:0 0 85px 85px }
-	.promotion-row figure:hover figcaption:after { border-width:0 0 95px 95px }
+	.promobox figure figcaption { padding:9px 65px 9px 15px }
+	.promobox figure figcaption:after { border-width:0 0 85px 85px }
+	.promobox figure:hover figcaption:after { border-width:0 0 95px 95px }
 	.recent-newslist { border-top:solid 1px #f2f2f2; }
 	.recent-newslist li { border-bottom:solid 1px #f2f2f2; }
 	.recent-newslist em { display:block; }
