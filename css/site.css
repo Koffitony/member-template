@@ -124,7 +124,7 @@ h5 { font-size:16px; }
 
 .banner-slider .item { position:relative; background-color:#000; overflow: hidden; }
 .banner-slider .item:after { width: 0; height: 0; border-style: solid; border-width: 696px 0 0 617px; border-color: transparent transparent transparent #ad073d;  border-color: transparent transparent transparent rgba(173,7,61,0.85); content:''; position:absolute; left:0; top:-152px; }
-.page-template-left-sidebar .banner-slider .item:after { border-width: 596px 0 0 528px; top:-152px; }
+.page-small-banner .banner-slider .item:after { border-width: 596px 0 0 528px; top:-152px; }
 
 
 .banner-content { position:absolute; left:125px;  font-size:20px; color:#fff; text-transform:uppercase; bottom:425px; z-index:4; line-height:1.15; }
@@ -133,7 +133,7 @@ h5 { font-size:16px; }
 
 #main { position:relative; margin-top:505px; }
 #main > .wrap { padding-bottom:35px; background:url(../images/bgi/main-bg.png) 0 0 repeat-x; position:relative; }
-.page-template-left-sidebar #main { margin-top:405px }
+.page-small-banner #main { margin-top:405px }
 
 .promobox { margin: 45px 0 35px 0; }
 .promobox figure { position:relative; }
