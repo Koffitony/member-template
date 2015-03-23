@@ -1,0 +1,1 @@
+## WorldSkills Member template
