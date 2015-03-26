@@ -28,6 +28,12 @@ The template is based on [Bootstrap 3](http://getbootstrap.com/) and uses
   - `ie10-viewport-bug-workaround.js` IE10 viewport hack for Surface/desktop Windows 8 bug
   - `jquery.js` Minified version of jQuery.
 
+### Colours
+
+The colours of the template have been chosen for a random Member to illustrate 
+how the design could look like. We encourage Members to adopt the template 
+to their own branding and user their own colours.
+
 ### Fonts
 
 For compability reasons the default font used is Helvetica Neue. The official 
